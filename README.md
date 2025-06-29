@@ -17,3 +17,5 @@ cd lamp-stack-ansible
 
 2. ###Run the Ansible playbook###
 ansible-playbook -i ansible/inventory.ini ansible/lamp-playbook.yml --ask-become-pass
+
+For the bash script, the command is ./lamp-install.sh
